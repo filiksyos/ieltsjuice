@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:background="?attr/colorTertiary"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="50dp"
+                app:cardElevation="5dp"
+                app:strokeColor="?attr/colorPrimary"
+                app:strokeWidth="1dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/educationImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@drawable/education_home"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+
+                        android:id="@+id/title_main_courses"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Online IELTS Courses"
+                        android:textColor="?attr/colorSecondaryVariant"
+                        android:textSize="@dimen/textSizeTitle"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/educationImg"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/text_main_courses"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:justificationMode="inter_word"
+                        android:text="Prepare for IELTS online with self-paced or one-to-one cources, and use the IELTS writing correction and consulation services"
+                        android:textSize="@dimen/textSizeDescription"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title_main_courses"
+                        tools:ignore="HardcodedText,UnusedAttribute" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_main_courses"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Get Started"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="11sp"
+                        app:backgroundTint="?attr/colorPrimary"
+                        app:cornerRadius="30dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text_main_courses"
+                        tools:ignore="HardcodedText" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonConsultation"
+                        style="?attr/materialButtonOutlinedStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:text="Get Consultation"
+                        android:textColor="?attr/colorSecondaryVariant"
+                        android:textSize="11sp"
+                        app:cornerRadius="30dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/button_main_courses"
+                        app:layout_constraintEnd_toStartOf="@+id/button_main_courses"
+                        app:layout_constraintTop_toTopOf="@+id/button_main_courses"
+                        app:strokeColor="?attr/colorPrimary"
+                        app:strokeWidth="1dp"
+                        tools:ignore="HardcodedText" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="50dp"
+                app:cardElevation="5dp"
+                app:strokeColor="?attr/colorPrimary"
+                app:strokeWidth="1dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:id="@+id/correctionImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@drawable/correction_home"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+
+                        android:id="@+id/title_main_correction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IELTS Writing Correction"
+                        android:textColor="?attr/colorSecondaryVariant"
+                        android:textSize="@dimen/textSizeTitle"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/correctionImg"
+                        tools:layout_editor_absoluteY="10dp"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/text_main_correction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:justificationMode="inter_word"
+                        android:text="Send us your IELTS writing for correction and receive expert feedback. We mark your errors, suggest changes and offer advice on how to improve your writing based on IELTS assessment criteria."
+                        android:textSize="@dimen/textSizeDescription"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title_main_correction"
+                        tools:ignore="HardcodedText"
+                        tools:targetApi="o" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_main_correction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="More Info"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="11sp"
+                        app:backgroundTint="?attr/colorPrimary"
+                        app:cornerRadius="30dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text_main_correction"
+                        tools:ignore="HardcodedText" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="50dp"
+                app:cardElevation="5dp"
+                app:strokeColor="?attr/colorPrimary"
+                app:strokeWidth="1dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                    android:id="@+id/writingImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/score_home"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+
+                        android:id="@+id/title_main_score_calculator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IELTS Score Calculator"
+                        android:textColor="?attr/colorSecondaryVariant"
+                        android:textSize="@dimen/textSizeTitle"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/writingImg"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/text_main_score_calculator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:justificationMode="inter_word"
+                        android:text="This calculator converts your listening and reading scores out of 40 to IELTS band scores out of 9.0. It also calculates your overall IELTS score."
+                        android:textSize="@dimen/textSizeDescription"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title_main_score_calculator"
+                        tools:ignore="HardcodedText"
+                        tools:targetApi="o" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_main_score_calculator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Score Calculator"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="11sp"
+                        app:backgroundTint="?attr/colorPrimary"
+                        app:cornerRadius="30dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/text_main_score_calculator"
+                        tools:ignore="HardcodedText" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="50dp"
+                app:cardElevation="5dp"
+                app:strokeColor="?attr/colorPrimary"
+                app:strokeWidth="1dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/dictionaryImg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:src="@drawable/img_dictionary"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/txtTitle_dictionary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Online Dictionary"
+                        android:textColor="?attr/colorSecondaryVariant"
+                        android:textSize="@dimen/textSizeTitle"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/dictionaryImg"
+                        tools:ignore="HardcodedText" />
+
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_dictionary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Online Dictionary"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="11sp"
+                        app:backgroundTint="?attr/colorPrimary"
+                        app:cornerRadius="30dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtTitle_dictionary"
+                        tools:ignore="HardcodedText" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="?attr/colorPrimary"
+        app:strokeWidth="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/US_pronunciation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textUK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="US"
+                    android:textColor="#D81818"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/speakerUsBtn"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_speaker"
+                    app:tint="#D81818"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/UK_pronunciation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/US_pronunciation">
+
+                <TextView
+                    android:id="@+id/textUS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="UK"
+                    android:textColor="#D81818"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/speakerUkBtn"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_speaker"
+                    app:tint="#D81818"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtPhonetic_dictionary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:justificationMode="inter_word"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/textSizeDescription"
+                app:layout_constraintBottom_toBottomOf="@+id/txtTitle_dictionary"
+                app:layout_constraintStart_toEndOf="@+id/txtTitle_dictionary"
+                app:layout_constraintTop_toTopOf="@+id/txtTitle_dictionary"
+                tools:text="Phonetic"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/txtPartOfSpeech_dictionary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="#D81818"
+                android:textSize="@dimen/textSizeDescription"
+                app:layout_constraintBottom_toBottomOf="@+id/txtTitle_dictionary"
+                app:layout_constraintEnd_toStartOf="@+id/favBtn"
+                app:layout_constraintStart_toEndOf="@+id/txtPhonetic_dictionary"
+                app:layout_constraintTop_toTopOf="@+id/txtTitle_dictionary"
+                tools:text="Noun"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/txtTitle_dictionary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:justificationMode="inter_word"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/textSizeTitle"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/US_pronunciation"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Hello"
+                tools:ignore="UnusedAttribute" />
+
+
+            <TextView
+                android:id="@+id/txtDesc_dictionary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:justificationMode="inter_word"
+                android:textColor="?attr/colorSecondaryVariant"
+                android:textSize="@dimen/textSizeDescription2"
+                app:layout_constraintEnd_toStartOf="@+id/favBtn"
+                app:layout_constraintStart_toEndOf="@+id/UK_pronunciation"
+                app:layout_constraintTop_toTopOf="@+id/UK_pronunciation"
+                tools:ignore="UnusedAttribute"
+                tools:text="Greeting" />
+
+            <ImageButton
+                android:id="@+id/favBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00E8131F"
+                android:src="@drawable/ic_favorite_red"
+                app:layout_constraintBottom_toBottomOf="@+id/txtTitle_dictionary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtTitle_dictionary"
+                tools:ignore="ContentDescription" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

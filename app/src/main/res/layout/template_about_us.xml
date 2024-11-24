@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:layout_width="150dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardElevation="5dp"
+        app:strokeColor="?attr/colorPrimary"
+        app:strokeWidth="1dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/imageView_about_RecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    tools:srcCompat="@tools:sample/avatars"
+                    tools:ignore="ContentDescription" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+
+        android:id="@+id/title_about_Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minLines="2"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="@dimen/textSizeDate"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_about_Details"
+        tools:text="Content Writer and Marketing Agent" />
+
+    <TextView
+        android:id="@+id/name_about_Details"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:textColor="?attr/colorSecondaryVariant"
+        android:textSize="@dimen/textSizeTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="David" />
+    <TextView
+        android:id="@+id/family_about_Details"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_height="27dp"
+        android:textColor="?attr/colorSecondaryVariant"
+        android:textSize="@dimen/textSizeTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Stanley Beggs" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_more_aboutUs"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="More"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="@dimen/textSizeDate"
+        app:icon="@drawable/ic_arrow_right"
+        app:iconGravity="end"
+        app:iconPadding="-85dp"
+        app:iconTint="?attr/colorOnSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

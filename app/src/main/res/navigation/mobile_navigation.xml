@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ieltsjuice.home.FragmentHome"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_studyOnline"
+        android:name="com.ieltsjuice.online_courses.FragmentOnlineCourses"
+        android:label="Study Online"
+        tools:layout="@layout/fragment_online_courses" />
+
+    <fragment
+        android:id="@+id/navigation_placement_quiz"
+        android:name="com.ieltsjuice.placement_test.FragmentPlacementQuiz"
+        android:label="Test"
+        tools:layout="@layout/fragment_placement_quiz" />
+
+    <fragment
+        android:id="@+id/navigation_placement_youtube"
+        android:name="com.ieltsjuice.youtube.FragmentYoutube"
+        android:label="Youtube"
+        tools:layout="@layout/fragment_youtube" />
+
+    <fragment
+        android:id="@+id/navigation_aboutUs"
+        android:name="com.ieltsjuice.about_us.FragmentAboutUs"
+        android:label="About US"
+        tools:layout="@layout/fragment_about_us" />
+
+
+
+</navigation>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">IELTS Juice</string>
+    <string name="versionNumber">version : 1.2.0</string>
+    <string name="home">Home</string>
+    <string name="study_online">Study Online</string>
+    <string name="test">Test</string>
+    <string name="youtube">Youtube</string>
+    <string name="about_us">About US</string>
+    <string name="strike_text">$<strike>9.00 USD</strike></string>
+    <string name="Q_consultation_01">How long is the consultation?</string>
+    <string name="A_consultation_01">You will receive a 20-minute consultation. Make sure you go online at least five minutes before it starts.</string>
+    <string name="Q_consultation_02">Where is the consultation held?</string>
+    <string name="A_consultation_02">On Skype. No matter where you are, you can use a smartphone or preferably a laptop to attend.</string>
+    <string name="Q_consultation_03">What happens during the consultation?</string>
+    <string name="A_consultation_03">The session starts with an oral placement test. Then we give you a study plan and advice on how to prepare for IELTS. You can also ask your own questions.</string>
+    <string name="Q_consultation_04">Is this consultation really free?</string>
+    <string name="A_consultation_04">Absolutely! If you are serious about your learning, we are happy to show your the roadmap. (This service is free until further notice.)</string>
+    <string name="Q_consultation_05">Can I book a consultation more than once?</string>
+    <string name="A_consultation_05">Sorry, but you can use this free service once only. If you need to meet with our consultants a second time or need an online lesson, please book a session for a small fee.</string>
+    <string name="Q_consultation_06">Is a high speed Internet connection necessary?</string>
+    <string name="A_consultation_06">Yes. You will be in an audio and/or video call with your teacher, so you’ll need a good Internet connection, but today in most parts of the world, the speed is even higher than needed.</string>
+    <string name="Q_selfPaced_01">How long are the courses?</string>
+    <string name="A_selfPaced_01">They are of different lengths, but you can progress faster or slower depending on your personal speed. Most students finish each skill in a few weeks.</string>
+    <string name="Q_selfPaced_02">Will I have a teacher?</string>
+    <string name="A_selfPaced_02">Yes and no. An experienced British Council IELTS expert teaches you in pre-recorded videos that you can watch anytime, anywhere. No live lessons.</string>
+    <string name="Q_selfPaced_03">Who are your courses for?</string>
+    <string name="A_selfPaced_03">IELTS preparation courses are recommended to English learners of B2 level or higher.</string>
+    <string name="Q_selfPaced_04">How many days/hours do I have to study?</string>
+    <string name="A_selfPaced_04">You can study any time of the day and as often as you want based on your lifestyle or needs, but we recommend at least 3 hours of practice each day.</string>
+    <string name="Q_selfPaced_05">Will I need any books to study during the online course?</string>
+    <string name="A_selfPaced_05">The course materials are more than enough for learning the techniques and strategies. But you definitely need to use the books recommended in the courses for test practice.</string>
+    <string name="Q_selfPaced_06">What if I have a question?</string>
+    <string name="A_selfPaced_06">No worries! Every course has its own question and answer forum where you can get help from our IELTS experts and other students in the course.</string>
+    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <!--    Self Paced Speaking -->
+    <string name="txtSpeakingTestLayoutDesc1">Welcome to the Speaking module of the IELTS Juice Online Academy. The course consists of 10 chapters with hours of videos, interactive exercises, downloads, further study recommendations. There is also a speaking forum where you can discuss your questions with teachers and other learners.\n"We start off by looking at the test layout, watch an interview recorded at the IELTS Juice studio, and later, we will practice the features of each part. During the course, you will be able to test yourself using lots of interactive exercises.</string>
+    <string name="txtSpeakingTestLayoutDesc2">As you just learned from the video lesson, the Academic and General Training modules of IELTS are the same in the Speaking part.</string>
+    <string name="txtModelSpeakingPart1Desc1">In this part of the academy, you will watch a complete model of the IELTS Speaking test conducted at the IELTS Juice studio. Let’s start with part 1.</string>
+    <string name="txtModelSpeakingPart1Desc2">Watch the recording again. Only this time, just let the examiner speak and mute or pause when the candidate answers the questions. Keep your recorded voice with you throughout the course. This will help you have a tangible feeling of your progress.</string>
+    <string name="txtModelSpeakingPart2Desc1">This is a model IELTS Speaking test part 2 conducted at the IELTS Juice studio. Watch it carefully and see how the interviewer gives the question card and asks the candidate to return it.</string>
+    <string name="txtModelSpeakingPart2Desc2">Look at the card below (from the video lesson) and prepare your answers. Even better, keep your notes and your recorded voice for this card with you throughout the course. Later on, this will help you have insights into how well you could have improved your performance.</string>
+    <string name="txtSelfPacedModelSpeakingPart2CardView">Describe you like or admire. \nYou should say: \n ✓ who this person is \n ✓ what this person has done \n ✓ why this person is well-known \n ✓ and explain why you admire this person.</string>
+    <string name="txtModelSpeakingPart3Desc1">This is a model IELTS speaking test part 3 conducted at the IELTS Juice studio. Watch it carefully.</string>
+    <string name="txtModelSpeakingPart3Desc2">Watch the recording again. Only this time, just let the examiner speak and mute or pause when the candidate answers the questions. Keep your recorded voice with you throughout the course. This will help you have a tangible feeling of your progress. Remember! For this part, you should speak at length and expect follow-up questions from the examiner, so be prepared.</string>
+    <!--    Self Paced Listening -->
+    <string name="txtAboutTheListeningTestDesc1">In this introductory lesson, you will learn why it’s important to take the listening skill seriously and prepare for it.</string>
+    <string name="txtAboutTheListeningTestDesc2">Got a question? Write in the listening forum, and one of the other learners or our IELTS experts will reply.</string>
+    <string name="txtTheListeningTestLayoutDesc1">What do you know about the layout of the IELTS listening test? Do you know how many people speak in each part of the test? What about the contents of each part and the skills tested? Watch the video to find out.</string>
+    <string name="txtTheListeningTestLayoutDesc2">Now open a Cambridge IELTS book and have a look at the four parts to see what they are like. Got a question? Write in the listening forum, and one of the other learners or our IELTS experts will reply.</string>
+    <string name="txtEnglishAccentsDesc1">IELTS is an international English test; therefore, during the listening part of the exam, you will hear different English accents. Watch this video and familiarize yourself with the common English accents in IELTS.</string>
+    <string name="txtEnglishAccentsDesc2">Which accent did you find the most difficult to understand? Explain why you feel more comfortable with some English accents in the listening forum. Can you suggest ways to be exposed to different English accents? For example, what radio channels do you normally listen to?</string>
+    <string name="txtFeaturesOfTheAustralianAccentDesc1">Until now, we have learnt three standard and common accents in IELTS namely: Modern Standard British English (MSBE), the North American accent, and the Australian accent. But how often do you watch movies in which actors speak with an Australian accent? How about course books, radio stations, podcasts and speeches in Australian English?
+\nIn this lesson, you’ll learn some features of this accent to help you comprehend the Australian speakers better.</string>
+    <string name="txtFeaturesOfTheAustralianAccentDesc2">Got a question? Write in the listening forum, and one of the other learners or our IELTS experts will reply.</string>
+    <string name="txtListeningQuestionTypesDesc1">IELTS uses a variety of questions in the Listening module. They can be categorized into seven types. Watch the video lesson below to learn more.</string>
+    <string name="txtListeningQuestionTypesDesc2">Got a question? Write in the listening forum, and one of the other learners or our IELTS experts will reply.</string>
+    <!--    Self Paced Writing -->
+    <string name="txtAboutTheWritingTestDesc1">Welcome to the Writing self-paced course of the IELTS Juice Online Academy. The course consists of hours of HD videos, interactive exercises, downloads, further study recommendations, and a writing forum where you can ask your questions and get reliable answers.
+\n
+Got a question or not sure if you need to register at the IELTS Juice Online Academy? Write your question in the writing forum and one of our IELTS experts will reply quickly.</string>
+    <string name="txtAboutTheWritingTestDesc2">Have a question? Write in the Writing Forum, and one of the other learners or our IELTS experts will reply.</string>
+    <string name="txtAcademicVsGeneralTrainingDesc1">In this lesson, you will find out what the differences between the IELTS Academic module and General Training module are. It is important to know what test to sit.</string>
+    <string name="txtAcademicVsGeneralTrainingDesc2">Have a question? Please write in the Writing Forum, and one of the other learners or our IELTS experts will reply.</string>
+    <string name="txtClassicOrContemporaryFormattingDesc1">Have you ever wondered what your essay should look like? What is the best way to organize your paragraphs in Tasks 1 and 2? Should we write according to the new styles or old ones are still correct? You can find the preferable choice of paragraphing here. Watch now!</string>
+    <string name="txtClassicOrContemporaryFormattingDesc2">There are a few simple questions for you in the quiz. Let’s see if you have taken this lesson in. Still got problems? Ask us anything in the writing forum.</string>
+    <string name="txtPenOrPencilDesc1">Believe us, many candidates are not completely sure what to use for writing tasks 1 and 2. Let’s see whether you should use a pencil, an eraser and a pencil-sharpener, or simply use a pen instead.</string>
+    <string name="txtPenOrPencilDesc2">Now, answer the following question in the quiz. If there is still anything unclear, ask us in the writing forum.</string>
+    <!--    Self Paced Reading -->
+    <string name="txtAboutTheReadingTestDesc1">Welcome to the Reading module of the IELTS Juice Online Academy. The course is packed with hours of videos, interactive exercises, downloads, further study recommendations, and a forum where you can ask your questions and get reliable answers.</string>
+    <string name="txtAboutTheReadingTestDesc2">Have a question? Write in the reading forum, and one of the other learners or our IELTS experts will reply.</string>
+    <string name="txtDifferenceBetweenReadingAcademicAndGeneralDesc1">What the difference between IELTS Academic module and General Training module is? It is important to know which type test to sit.</string>
+    <string name="txtDifferenceBetweenReadingAcademicAndGeneralDesc2">Have a question? Write in the reading forum, and one of the other learners or our IELTS experts will reply.</string>
+
+    <!--     Test Result   -->
+    <string name="txtTitleA1">You are a Beginner</string>
+    <string name="txtDescriptionTitleA1">An English learner at A1 level:</string>
+    <string name="txtDescriptionA1">
+        • Can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.
+        \n• Can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.
+        \n• Can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.</string>
+    <string name="txtTitleA2">You are Pre-Intermediate</string>
+    <string name="txtDescriptionTitleA2">An English learner at A2 level:</string>
+    <string name="txtDescriptionA2">
+        • Can understand sentences and frequently used expressions related to areas of most immediate relevance (e.g. very basic personal and family information, shopping, local geography, employment).
+        \n• Can communicate in simple and routine tasks requiring a simple and direct exchange of information on familiar and routine matters.
+        \n• Can describe in simple terms aspects of his/her background, immediate environment and matters in areas of immediate need.</string>
+    <string name="txtTitleB1">You are Intermediate</string>
+    <string name="txtDescriptionTitleB1">An English learner at B1 level:</string>
+    <string name="txtDescriptionB1">
+        • May get a 4.0 - 4.5 in IELTS after enough exam training.
+        \n• Can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.
+        \n• Can deal with most situations likely to arise whilst travelling in an area where the language is spoken.
+        \n• Can produce simple connected text on topics which are familiar or of personal interest.
+        \n• Can describe experiences and events, dreams, hopes and ambitions and briefly give reasons and explanations for opinions and plans.</string>
+    <string name="txtTitleB2">Well-done! You are Upper-Intermediate</string>
+    <string name="txtDescriptionTitleB2">An English learner at B2 level:</string>
+
+    <string name="txtDescriptionB2">
+        • May get a 5.0 - 6.0 in IELTS after enough exam training.
+        \n• Can understand the main ideas of complex text on both concrete and abstract topics, including technical discussions in his/her field of specialization.
+        \n• Can interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible without strain for either party.
+        \n• Can produce clear, detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options.</string>
+    <string name="txtTitleC1">Congrats! You are Advanced!</string>
+    <string name="txtDescriptionTitleC1">An English learner at C1 level:</string>
+    <string name="txtDescriptionC1">
+        • May get a 6.5 - 7.5 in IELTS after enough exam training.
+        \n• Can understand a wide range of demanding, longer texts, and recognize implicit meaning.
+        \n• Can express him/herself fluently and spontaneously without much obvious searching for expressions.
+        \n• Can use language flexibly and effectively for social, academic and professional purposes.
+        \n• Can produce clear, well-structured, detailed text on complex subjects, showing controlled use of organisational patterns, connectors and cohesive devices.</string>
+    <string name="txtTitleC2">Wow! You are Very Advanced!</string>
+    <string name="txtDescriptionTitleC2">An English learner at C2 level:</string>
+    <string name="txtDescriptionC2">
+        • May get a 8.0 - 9.0 in IELTS after enough exam training.
+        \n• Can understand with ease virtually everything heard or read.
+        \n• Can summarize information from different spoken and written sources, reconstructing arguments and accounts in a coherent presentation.
+        \n• Can express him/herself spontaneously, very fluently and precisely, differentiating finer shades of meaning even in more complex situations.</string>
+    <string name="aboutUs">IELTS JUICE"'"s main office located in Saburtalo, Tbilisi, Georgia but our representatives across the globe help us spread education worldwide.
+
+    </string>
+    <string name="NoInternet">Check your Internet connection…</string>
+    <string name="GOOGLE_API_KEY">AIzaSyAk79gPVoTkRkf6v0Ex2dZfofP-FfyqDso</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
